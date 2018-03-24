@@ -99,8 +99,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("kolo.supernet.org", "zero.kolo.supernet.org")); // @kolo
-        vSeeds.push_back(CDNSSeedData("komodoplatform.com", "seeds.komodoplatform.com")); // @kolo
-        vSeeds.push_back(CDNSSeedData("komodo.mewhub.com", "seeds.komodo.mewhub.com")); // @kolo
+//        vSeeds.push_back(CDNSSeedData("komodoplatform.com", "seeds.komodoplatform.com")); // @kolo
+//        vSeeds.push_back(CDNSSeedData("komodo.mewhub.com", "seeds.komodo.mewhub.com")); // @kolo
         // TODO: set up bootstrapping for mainnet
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,60);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,85);
